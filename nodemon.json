@@ -1,0 +1,9 @@
+{
+    "restartable": "rs",
+    "ignore": [".git", "node_modules/", "build/"],
+    "exec": "clear && node ./scripts/dev.js && node .dev/index.js",
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js, json, ts"
+}
